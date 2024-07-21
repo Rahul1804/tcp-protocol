@@ -2,19 +2,6 @@
 
 This project demonstrates how to create a custom protocol based on TCP using Go. The protocol involves a client sending a string "HELLO" and the server responding with "WORLD". Any other message results in a response of "UNKNOWN COMMAND".
 
-## Project Structure
-
-tcp-protocol/
-├── client/
-│ └── main.go
-├── server/
-│ └── main.go
-├── go.mod
-└── protocol/
-├── protocol.go
-└── protocol_test.go
-
-
 ## Getting Started
 
 ### Prerequisites
